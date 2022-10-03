@@ -13304,6 +13304,17 @@ input[type="text"]:disabled {
   text-transform: uppercase;
 }
 
+.nav-logo-link {
+  float: initial !important;
+  display: inline-block !important;
+  margin-left: 0px !important;
+  border: 0px !important;
+}
+
+.nav-logo-link:hover {
+  background-color: initial !important;
+  color: initial !important;
+}
 
 @media (min-width: 768px) {
   .modal-dialog {
