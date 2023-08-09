@@ -72,46 +72,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-/*
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
+
+	'username' => '',
 	'password' => '',
-	'database' => 'clinical_rss',
-
-	// 'username' => 'clinicor_rss',
-	// 'password' => '8^BhZyBC5l&B',
-	// 'database' => 'clinicor_rss',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
-
-*/
-
-
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	// 'username' => 'root',
-	// 'password' => 'root',
-	// 'database' => 'clinical_rss',
-
-	'username' => 'evan8ce_root',
-	'password' => '8^BhZyBC5l&B',
-	'database' => 'evan8ce_pubmed',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
